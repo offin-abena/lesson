@@ -11,7 +11,6 @@ if (isset($_POST['email'], $_POST['password'])) {
     if($success){
        $_SESSION['phone']= $success['phone'];
         header('Location:albums.php');
-        exit();
     }
 }
 ?>
